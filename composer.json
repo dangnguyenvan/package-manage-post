@@ -1,0 +1,25 @@
+{
+    "name": "vandang/manager-posts",
+    "description": "day la package dang tao ra de quan li bai viet",
+    "license": "MIT",
+    "require": {},
+    "authors": [
+      {
+        "name": "nguyen van dang",
+        "email": "dangnguyenvan@gmail.com"
+      }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "dang\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "dang\\ManagePostServiceProvider"
+            ]
+        }
+    }
+}
